@@ -1,0 +1,11 @@
+{
+	"Index export": {
+		"scope": "javascript,typescript",
+		"prefix": "index",
+		"body": [
+			"export { default } from './${1}';",
+			""
+		],
+		"description": "Create default export for index",
+	}
+}
